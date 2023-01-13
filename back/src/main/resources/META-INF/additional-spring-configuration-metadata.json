@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "zq.public-path",
+      "type": "java.lang.String",
+      "description": "Where you run the application, should end without \"/\".(e.g.: /down)."
+    },
+    {
+      "name": "zq.password-encoded",
+      "type": "java.lang.String",
+      "description": "Encoded password for entering the application."
+    },
+    {
+      "name": "zq.encoded-method",
+      "type": "java.lang.String",
+      "description": "Method that your password how encodes(no-encode | bcrypt)."
+    }
+  ] }
